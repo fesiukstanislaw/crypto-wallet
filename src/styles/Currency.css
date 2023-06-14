@@ -1,0 +1,37 @@
+.currency{
+    display: flex;
+    padding: 15px 65px;
+    gap: 25px;
+    border-radius: 5px;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+}
+.currency-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 155px;
+}
+.currency-title{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.currency-price{
+    font-size: 14px;
+    font-weight: 400;
+}
+.currency-price:hover{
+    font-size: 16px;
+    font-weight: 500;
+}
+.bald{
+    font-size: 16px;
+    font-weight: 500;
+}
+.link{
+    text-decoration: underline;
+}
+.link:hover{
+    cursor: pointer;
+}
